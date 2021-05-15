@@ -1,0 +1,15 @@
+@import "../sass/variables";
+@import "../sass/general";
+
+* {
+    font-family: 'Open Sans';
+}
+
+h2 {
+    margin: 0;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
