@@ -188,6 +188,9 @@
         font-size: 13px;
         letter-spacing: 0.5px;
         color: #fff;
+        &:hover {
+            filter: brightness(105%);
+        }
     }
     &__wrapper {
         margin-top: 80px;
@@ -246,6 +249,9 @@
         font-size: 13px;
         font-weight: 600;
         cursor: pointer;
+        &:hover {
+            filter: brightness(105%);
+        }
     }
 }
 
@@ -281,6 +287,9 @@
             font-size: 13px;
             font-weight: 600;
             cursor: pointer;
+            &:hover {
+                filter: brightness(105%);
+            }
         }
     }
 }
