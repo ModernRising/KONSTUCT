@@ -15,18 +15,18 @@
     }
     &__head {
         text-align: center;
-        color: #FFFFFF
+        color: #FFFFFF;
     }
     &__title {
         font-family: 'Bebas Neue';
+        letter-spacing: 5.70937px;
         font-weight: 400;
-        letter-spacing: 7.70937px;
         font-size: 60px;
         margin: 0;
     }
     &__subtitle {
-        font-weight: 400;
-        letter-spacing: 1px;
+        font-weight: 600;
+        font-size: 16px;
     }
     &__scroll {
         font-weight: 400;
@@ -38,7 +38,7 @@
 
 
 .header {
-    padding: 24px 0 0 0;
+    padding-top: 24px;
     &__wrapper {
         display: flex;
         justify-content: space-between;
@@ -52,11 +52,12 @@
         display: flex;
         list-style-type: none;
         justify-content: space-between;
-        padding: 0;
+        padding: 20px 0 15px 0;
+        margin: 0;
         &__item {
-            margin-right: 48px;
+            padding-right: 37px;
             &:last-child {
-                margin-right: 0;
+                padding-right: 0;
             }
         }
         &__link {
@@ -103,14 +104,14 @@
     }
     &__divider {
         margin: 0 auto;
-        margin-top: 10px;
+        margin-top: 12px;
         width: 50px;
         border: 1px solid #00A4E5;
     }
     &__wrapper {
         display: flex;
         justify-content: space-between;
-        margin-top: 65px;
+        margin-top: 54px;
     }
     &__descr {
         width: 405px;
@@ -140,7 +141,7 @@
     &__aside {
         align-self: flex-end;
         img {
-            margin-right: 20px;
+            margin-right: 18px;
             &:last-child {
                 margin-right: 0;
             }
@@ -161,7 +162,7 @@
         color: #48555B;
     }
     &__divider {
-        margin-top: 10px;
+        margin-top: 12px;
         width: 50px;
         border: 1px solid #00A4E5;
     }
@@ -172,10 +173,10 @@
         max-width: 405px;
         font-weight: 400;
         font-size: 11px;
-        line-height: 19px;
+        line-height: 18px;
         letter-spacing: 0.2px;
         color: #48555B;
-        margin-right: 32px;
+        margin-right: 41px;
     }
     &__btn {
         width: 150px;
@@ -193,29 +194,29 @@
         }
     }
     &__wrapper {
-        margin-top: 80px;
+        margin-top: 78px;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
     }
     &__item {
-        padding: 38px 22px 39px 23px;
+        padding: 33px 30px 37px 23px;
         background: #FFFFFF;
         border: 1px solid #E6E6E6;
         flex-basis: 250px;
     }
     &__item-title {
-        margin-top: 23px;
+        margin-top: 27px;
         font-weight: 600;
         font-size: 16px;
         letter-spacing: 0.426667px;
         color: #48555B;
     }
     &__item-descr {
-        margin-top: 13px;
+        margin-top: 18px;
         width: 250px;
         font-size: 13px;
-        line-height: 23px;
+        line-height: 24px;
         letter-spacing: 0.1875px;
         color: #48555B;
     }
@@ -308,15 +309,18 @@
     &__logo {
         margin-top: 19px;
     }
+    &__head {
+        font-size: 11px;
+        letter-spacing: 0.846154px;
+    }
     &__text {
         margin-top: 15px;
         font-size: 11px;
-        line-height: 19px;
+        line-height: 18px;
         letter-spacing: 0.85px;
     }
     &__nav {
-        /* flex-basis: 262px; */
-        margin-left: 71px;
+        margin-left: 38px;
     }
     &__links-head {
         font-weight: 400;
@@ -329,15 +333,15 @@
         text-transform: uppercase;
     }
     &__menu {
-        margin-bottom: 0;
+        margin: 11px 0 0 0;
         padding-left: 0;
         list-style: none;
         max-width: 78px;
         &:nth-child(2) {
-            padding-left: 30px;
+            padding-left: 35px;
         }
         &:nth-child(3) {
-            padding-left: 30px;
+            padding-left: 35px;
         }
     }
     &__item {
@@ -360,14 +364,15 @@
         font-weight: 400;
         letter-spacing: 0.846154px;
         max-width: 141px;
+        line-height: 24px;
     }
     &__address {
-        margin-top: 14px;
+        margin-top: 8px;
         line-height: 16px;
     }
     &__phone {
         display: block;
-        margin-top: 23px;
+        margin-top: 8px;
         color: #FFFFFF;
         text-decoration: none;
         &:hover{
